@@ -1,0 +1,6 @@
+Applications:
+    frost:
+        app_types:
+            - FrostApp
+        content_directory: ${ROOT_DIR}/doc/content
+        log_default: WARNING

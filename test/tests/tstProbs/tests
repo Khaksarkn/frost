@@ -1,0 +1,17 @@
+[Tests]
+  [./heatConduction]
+    type = 'Exodiff'
+    input = 'heatConduction.i'
+    exodiff = 'heatConduction_out.e'
+  [../]
+  [./heatConvection]
+    type = 'Exodiff'
+    input = 'heatConvection.i'
+    exodiff = 'heatConvection_out.e'
+  [../]
+  [./massSeepage]
+    type = 'Exodiff'
+    input = 'massSeepage.i'
+    exodiff = 'massSeepage_out.e'
+  [../]
+[]
