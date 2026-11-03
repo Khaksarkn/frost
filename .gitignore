@@ -366,3 +366,6 @@ OutputData
 # PETSc binary output
 binaryoutput
 frost.yaml
+
+## examples init
+!examples/**/*_init.e
